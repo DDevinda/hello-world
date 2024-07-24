@@ -7,6 +7,11 @@ public class Example {
 
     public static void main(String[] args) throws Exception {
         System.out.println("hello world");
+        add();
+    }
+
+    public static void add() {
+        System.out.println("Add functionality");
     }
 
 }
